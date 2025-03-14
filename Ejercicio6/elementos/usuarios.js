@@ -1,5 +1,5 @@
 import solicitud from "./solicitud.js"; // Importamos la función solicitud para hacer la petición
-export  const getUsuarios=async(URL,id)=>{ // Función asíncrona para obtener usuarios
+export const getUsuarios=async(URL,id)=>{ // Función asíncrona para obtener usuarios
     let ruta=""; // Variable para almacenar la URL de la solicitud.
     if(id){
      ruta=`${URL}/users?id=${id}`;  // Si se proporciona un ID, obtenemos solo ese usuario.

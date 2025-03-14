@@ -1,0 +1,1 @@
+import solicitud from "./solicitud.js";

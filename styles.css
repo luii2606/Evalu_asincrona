@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  flex-direction: column;
+  padding: 10px ;
+}
+
+nav{
+
+  justify-content: center;
+  background-color: rgb(118, 82, 148);
+  width: 200px;
+  height: 150px;
+  margin-top: 4%;
+  
+  
+}
+.lista__item{
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding-top: 5%;
+  
+}
+.lista__link{
+  text-decoration: none;
+  color: black;
+  
+  
+}
+.lista__link:hover{
+  background-color: white;
+  color:rgb(118, 82, 148);
+ 
+}
